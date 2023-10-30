@@ -91,10 +91,17 @@
 // console.log(gameName.slice(-5, 2))
 
 
-const newfile = "    gagandeep    "
-console.log(newfile.trim());
+// const newfile = "    gagandeep    "
+// console.log(newfile.trim());
 
-let url = "http://charnjeet.on.in/verr%20c jpdhtiii"
+// let url = "http://charnjeet.on.in/verr%20c jpdhtiii"
 
-console.log(url.replace('%20', '-'));
-console.log(url.replace(' ', '/'));
+// console.log(url.replace('%20', '-'));
+// console.log(url.replace(' ', '/'));
+
+// console.log(Math.random());
+// console.log(Math.random()*9);
+
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random()* (max - min + 1))+min)
