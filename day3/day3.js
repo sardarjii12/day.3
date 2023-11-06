@@ -102,6 +102,80 @@
 // console.log(Math.random());
 // console.log(Math.random()*9);
 
-const min = 10
-const max = 20
-console.log(Math.floor(Math.random()* (max - min + 1))+min)
+// const min = 10
+// const max = 20
+// console.log(Math.floor(Math.random()* (max - min + 1))+min)
+
+// const mySyn = Symbol("key1")
+// const user = {
+//     names: "gagn",
+//    [mySyn]: "key1",
+//     age: 36,
+//     gmail: "gamial.com",
+//     location: "muktsar"
+
+// }
+// user.gmail = "gghhhg@gfgfgg"
+// // const mysine = Symbol("key2")
+
+
+
+
+
+// // console.log(user[mySyn])
+// // console.log(typeof user.mySyn)
+
+
+// console.log(user[age])
+
+
+
+
+
+// function abc(){
+//     console.log("a");
+//     console.log("b");
+//     console.log("c");
+//     console.log("d");
+//     console.log("e");
+//     console.log("f");
+//     console.log("g");
+//     console.log("h");
+// }
+// abc()
+// abc()
+// abc()
+// abc()
+// abc()
+
+
+// function addNumber(number1, number2){
+//     number1+number2
+// console.log(number1+number2);
+
+// }
+// addNumber(10,2)
+// addNumber(10,"a")
+// let result = addNumber(20,10)
+// console.log(result);
+
+
+// function addNumber(number1, number2){
+//   let result= number1+number2
+
+// return result
+
+// }
+// addNumber(10,2)
+// addNumber(10,"a")
+// let result = addNumber(20,10)
+// console.log("result:",result);
+// }
+
+
+
+function file (Username){
+    return `${Username}, Welcome to js`
+}
+file("Gagn")
+console.log(file ("Gagn"))
