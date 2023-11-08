@@ -102,12 +102,14 @@
 // console.log(Math.random());
 // console.log(Math.random()*9);
 
-// const min = 10
-// const max = 20
+// const min = 0
+// const max = 9
 // console.log(Math.floor(Math.random()* (max - min + 1))+min)
 
 // const mySyn = Symbol("key1")
 // const user = {
+
+ 
 //     names: "gagn",
 //    [mySyn]: "key1",
 //     age: 36,
@@ -174,8 +176,131 @@
 
 
 
-function file (Username){
-    return `${Username}, Welcome to js`
+// function file (Username){
+//     return `${Username}, Welcome to js`
+// }
+// file("Gagn")
+// console.log(file ("Gagn"))
+
+
+// const obj1 = {1: "a", 2: "b" }
+// const obj2 = {3: "c", 4: "d" }
+// // const obj3 = Object.assign({}, obj1,obj2)
+// const obj3 = {...obj1, ...obj2}
+// console.log(obj3);
+
+// // const course = {
+// //     coursname: "it cours",
+// //     price: 2999,
+// //     courseteacher: "Gagndeep"
+// // }
+// // const {courseteacher:file} = course
+// // console.log(file);
+
+// /
+// function sayMyname(){
+//     console.log("d")
+// console.log("d")
+// console.log("d")
+// console.log("d")
+// console.log("d")
+// console.log("d")
+// console.log("d")
+// console.log("c")
+
+
+// }
+// sayMyname()
+
+// function addtwoNumber(number5, number6){
+//     console.log(number5 + number6);
+// }
+
+// addtwoNumber(4, 8)
+
+//  function addtwoNumber(number5, number6){
+// //  let ans = number5 + number6     
+// //  return ans
+// return number5 + number6
+// }
+// const ans = addtwoNumber(8,9)
+// console.log("ans: ", ans);
+
+
+// function userlogin(username){
+//      if (username === undefined) {
+//      console.log( "please enter a name")
+//      return
+
+        
+//      }
+
+
+//     return `${username}, welcome in my site`
+    
+// }
+// // console.log(userlogin("charnjeet singh",));
+// console.log(userlogin(""));
+
+// function          claculatebill(cls1, cls2, ...price1){
+// return price1
+// }
+// // console.log(claculatebill(200, 522, 400));
+
+// let userclass = {
+//     username: "charnjeet",
+//     price: 2000
+// }
+
+// function tipefile(userclass){
+//     console.log(`user name ${userclass.username}and price is ${userclass.price}`);
+// }
+// tipefile(userclass)
+
+
+
+// const newarry =[400,200,300,500,800]
+// function returnarry(getarry){
+//     return getarry[2]
+// }
+// console.log(returnarry(newarry));
+
+
+
+// const arrowfunc = (val1, val2) => {
+
+//     return val1 + val2 
+// }
+// console.log(arrowfunc(2,9));
+
+
+// if (true){
+//     console.log("hello sir");
+   
+// }
+// if (false){
+//     console.log("hello sir");
+   
+// }
+
+// if (2==3){
+//     console.log("hello sir");
+   
+// }
+
+// const userLogin = true
+// if (userLogin){
+//     console.log(`${username}, welcome in my site`)
+// }
+
+
+const amount= 1000
+if(amount < 500){
+    console.log("less than 500");
+} else if(amount < 800){
+    console.log("less than 800");
 }
-file("Gagn")
-console.log(file ("Gagn"))
+else{
+
+    console.log("less than 1100")
+}

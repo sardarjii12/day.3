@@ -19,9 +19,19 @@
 // console.log(Math.floor(4.6))
 // console.log(Math.acos(5))
 // console.log(Math.min(4,5,6,3,8,4))
-console.log(Math.random());
-console.log(Math.random()*9);
+// console.log(Math.random());
+// console.log(Math.random()*9);
 
-const min = 0
-const max = 9
-console.log(Math.floor(Math.random()* (max - min + 1))+min)
+// const min = 0
+// const max = 36
+// console.log(Math.floor(Math.random()* (max - min + 1))+min)
+
+
+// Object+++++++++++++++++++++++++++++++++++++++
+const user = {
+    class: "one",
+    age: 24,
+    locatuion: "muktsar"
+    lastupdate: ["monday0", "saturday"]
+}
+console.log(user[age])
