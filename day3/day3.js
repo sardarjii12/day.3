@@ -387,3 +387,52 @@
 //     }
 //     console.log(i);
 // }
+
+// for (let  i =0;  i < 20; i++) {
+//     console.log(i);
+    
+// }
+
+
+
+//  const file = {
+//     username: "gagan",
+
+//     price: 999,
+//     welcomemessage: function () {
+        
+
+//      console.log(`${this.username}, welcome to my website`);
+
+        
+//     }
+   
+//  }
+// //  file.welcomemessage()
+// //  file.username = "charn"
+// //  file.welcomemessage()
+
+// function chai () {
+//    console.log(this); 
+// }
+//  chai()
+
+
+        //  for (let i = 0; i <= 10; i++) {
+        // console.log(`outer loop print: ${i}`);
+
+        // for (let j = 0; j <= 10; j++) {
+        //         console.log(i + '*' + j + ' = ' + i*j);
+                
+        // }
+                
+       
+
+        for (let i = 0; i < 10; i++) {
+                console.log(`outer loop ${i}`);
+                for (let j = 0; j < 10; j++) {
+                        console.log(i + '*' + j + ' = ' + i*j);
+                    
+                }
+                
+            }
