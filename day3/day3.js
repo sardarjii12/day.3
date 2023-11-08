@@ -294,13 +294,96 @@
 // }
 
 
-const amount= 1000
-if(amount < 500){
-    console.log("less than 500");
-} else if(amount < 800){
-    console.log("less than 800");
-}
-else{
+// const amount= 1000
+// if(amount < 500){
+//     console.log("less than 500");
+// } else if(amount < 800){
+//     console.log("less than 800");
+// }
+// else{
 
-    console.log("less than 1100")
-}
+//     console.log("less than 1100")
+// }
+
+// const month = 4
+// switch (month){
+//     case 1:
+//       console.log("jan");    
+//       break;    
+//     case 2:
+//       console.log("feb");    
+//       break;    
+//     case 3:
+//       console.log("mar");    
+//       break;    
+//     case 4:
+//       console.log("apr");    
+//       break;    
+//   default: 
+//       console.log("data not found");
+// }
+
+
+//    const student = 250
+   
+//    student >=90 ? console.log("lest then 90"); console.log("more then 90");
+
+
+
+// function one(){
+//     const username = "chanu"
+    
+//     function teo (){
+//         const website = "playgame"
+//         console.log(username);
+//     }
+//     // console.log(website)
+//     teo()
+
+// }
+// one()
+
+
+// if (true) {
+//     const user = "chanu"
+//     if (user=== "chanu") {
+//         const website = "playstor"
+        // console.log(user + website);
+        
+//     }
+//     //   console.log(website)
+// }
+// console.log(user);
+
+
+// console.log(addone(6));
+// function addone(val) {
+//     return val + 2
+    // addone (6)
+// }
+
+
+
+// addtwo(5)
+// const addtwo = function(val1) {
+//     return val1 + 5
+    
+// }
+
+
+// for (let i = 0; i < 6; i++) {
+//     console.log(`outer loop ${i}`);
+//     for (let j = 0; j < 5; j++) {
+//         console.log(`iner loop ${j} and outer loop${i}`);
+        
+//     }
+    
+// }
+
+// for (let i = 0; i < 10; i++) {
+//     const element = i;
+//     if(element==4){
+//     console.log("printe number 4");
+//     }
+//     console.log(i);
+// }
